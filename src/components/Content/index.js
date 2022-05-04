@@ -5,10 +5,10 @@ import './styles.scss'
 import Navbar from '../Navbar'
 import Result from '../Result'
 
-const Content = props => {
+const Content = ({data}) => {
   return (
     <div className='content'>
-        <Navbar />
+        <Navbar data={data}/>
         <Result />
     </div>
   )

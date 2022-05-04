@@ -1,0 +1,23 @@
+.navbar{
+    width: 25%;
+    padding: 1rem;
+    &__title{
+        margin-bottom: 1rem;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    &__categorie{
+        margin: 1rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }    
+    &__categorie:hover{
+        background-color: #F2EFF6;
+    }
+    &__logo{
+        width: 30px;
+        margin-right: 0.5rem;
+    }
+
+}
