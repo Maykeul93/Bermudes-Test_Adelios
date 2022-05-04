@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
+import { Link } from 'react-router-dom'
 import './styles.scss';
 
 import logo from '../../assets/misc/logo-bermudes.png'
@@ -8,7 +8,9 @@ import images from '../../assets/categories/corbeilles-fruits-legumes__2019-09-0
 const Header = props => {
   return (
     <div className='header'>
-        <img src={logo} alt='logo' />
+        <Link to="/" >
+          <img src={logo} alt='logo' />
+        </Link>
         <form>
             <input type={'text'} />
         </form>

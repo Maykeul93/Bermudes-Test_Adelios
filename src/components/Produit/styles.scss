@@ -1,0 +1,17 @@
+.product{
+    width: 150px;
+    display: flex;
+    &__name{
+        font-size: 10px;
+        text-align: center;
+    }
+    &__img{
+        display: block;
+    }
+    &__heartbutton{
+        position: absolute;
+    }
+    &__liked{
+        filter: invert(22%) sepia(100%) saturate(6868%) hue-rotate(360deg) brightness(103%) contrast(106%);
+    }
+}

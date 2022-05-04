@@ -1,4 +1,9 @@
 .result{
     background-color: #F2EFF6;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem;
+    overflow-y: scroll;
 }
