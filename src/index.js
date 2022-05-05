@@ -6,20 +6,25 @@ import {
   Route
 } from "react-router-dom";
 import './styles/styles.scss';
-
+//import for redux
+import { Provider } from 'react-redux';
+import store from 'src/store';
+//import components
 import App from './components/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router>
-      <Routes>
-        <Route 
-          exact path='*'
-          element={<App />}
-        />
-      </Routes>
-    </Router>
+    <Provider store={store}>
+      <Router>
+        <Routes>
+          <Route 
+            exact path='*'
+            element={<App />}
+          />
+        </Routes>
+      </Router>
+    </Provider>
   </React.StrictMode>
 );
 
