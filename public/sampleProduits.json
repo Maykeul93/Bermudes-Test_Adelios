@@ -1,0 +1,2676 @@
+[
+	{
+		"code": "TO3 PROMO",
+		"nom": "TOMATE 3 VRAC PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": [],
+		"facteurU": 2
+	},
+	{
+		"code": "9TOCBLLI",
+		"nom": "TOMATE COEUR DE BOEUF ROUGE \"BIO\" X5KG LIBOUREL",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }],
+		"facteurU": 3
+	},
+	{
+		"code": "PMGOL701PROMO",
+		"nom": "POMME GOLDEN OFFICE 70/75 KG (136G-180G) PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "PTF7PROMO",
+		"nom": "PDT FRITE FRAICHE 7/7 MYDIBEL PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "TOCDBPROMO",
+		"nom": "TOMATE COEUR DE BOEUF ANCIENNE KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "TOGRP2PROMO",
+		"nom": "TOMATE GRAPPE 2 /3 PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "MECHACT1PRO",
+		"nom": "MELON CHARENTAIS CAT1 KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "SPMEAS1PRO",
+		"nom": "MESCLUN ASIATIQUE KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "SPMOTMPRO",
+		"nom": "POUSSE MOUTARDE FRISEE ROUGE COLIS BOIS KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "ANEXS1PROMO",
+		"nom": "ANANAS SWEET BATEAU PROMO KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "PVPROPRO",
+		"nom": "POIVRON ROUGE KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EXFRPPRO",
+		"nom": "FRUIT PASSION KG COLOMBIE / AFS PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "ANAVIPRO",
+		"nom": "ANANAS AVION KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "PMFUJ80P1PRO",
+		"nom": "POMME FUJI  80/85 PLT (215G-270G) PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "AVHAS20PRO",
+		"nom": "AVOCAT HASS 20/22 C PROMO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "AVHAS16PRO",
+		"nom": "AVOCAT HASS 16 C PROMO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "LEHEL1PRO",
+		"nom": "HELIANTHIS KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "ORVEL3PRO",
+		"nom": "ORANGE VANILLE KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EXKAKPRO",
+		"nom": "KAKI PLT KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "NARONPRO",
+		"nom": "NAVET ROND CAT 1 KG. PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "ANDEMPRO",
+		"nom": "ANANAS DEL MONTE KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "ORMOOPRO",
+		"nom": "ORANGE MORO SANGUINE KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EXMAA1PRO",
+		"nom": "MANGUE AVION PROMO KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "HAHVEKEEFPRO",
+		"nom": "HARIC.VERT EXTRA FIN KENYA KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CLMANPRO",
+		"nom": "MANDARINE CAL.2 KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "9PMARI70",
+		"nom": "POMME ARIANE 70/75  BIO ",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "CLSCC1PRO",
+		"nom": "CLEM \"SOCCULENTE\" EXTRA CAL2 KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CICEKPRO",
+		"nom": "CITRON CEDRAT ITALIE KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fruits" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CPPARMO1PROMO",
+		"nom": "CHAMPIGNON PARIS EQ. MOYEN KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CAMULTIVR",
+		"nom": "CAROTTE MULTICOLORE VRAC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [{ "slug": "produits-locaux" }],
+		"labels": [{ "slug": "local-idf" }]
+	},
+	{
+		"code": "CHPAY1PROMO",
+		"nom": "CHOU PACK CHOY SHANGAI KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "BERRADROS",
+		"nom": "RADIS ROSE BTE BERRURIER",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "BERPOIVIC",
+		"nom": "POIREAU ST VICTOR X5KG BERRURIER",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "BEROIG",
+		"nom": "OIGNON JAUNE PAILLE KG BERRURIER",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "BERBLEMULM",
+		"nom": "BLETTE DE COULEUR MINI KG BERRURIER",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "BERBLEBLAM",
+		"nom": "BLETTE BLANCHE MINI KG BERRURIER",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "BERBETROU",
+		"nom": "BETTERAVE ROUGE KG BERRURIER",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "BERPAN",
+		"nom": "PANAIS KG BERRURIER",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "HUIPATDOUP",
+		"nom": "PATATE DOUCE X5KG HUITRIC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CAYRADREDM",
+		"nom": "RADIS RED MEAT KG BRUNO CAYRON",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CAYRADMISRED",
+		"nom": "RADIS MISATO RED KG BRUNO CAYRON",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CAYRADGREMEA",
+		"nom": "RADIS GREEN MEAT KG BRUNO CAYRON",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CAYFEN",
+		"nom": "FENOUIL KG BRUNO CAYRON",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CAYCELRAV",
+		"nom": "CELERI RAVE KG BRUNO CAYRON",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "BERCOUSUC",
+		"nom": "COURGE SUCRINE DU BERRY KG BERRURIER",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "BERCELRAV",
+		"nom": "CELERI RAVE MARAÎCHER PCE BERRURIER",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "BERCARORABM",
+		"nom": "CAROTTE ORANGE MINI BTE BERRURIER",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "BERCARJAUBM",
+		"nom": "CAROTTE JAUNE MINI BTE BERRURIER",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "BEAARRR",
+		"nom": "ARROCHE ROUGE X1KG BEAUSSE",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [{ "slug": "produits-locaux" }],
+		"labels": [{ "slug": "local-idf" }]
+	},
+	{
+		"code": "BAYPRIAMA",
+		"nom": "PDT PRINCESSE AMANDINE CAISSE BOIS X5KG BAYARD",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "BASOIGMIC",
+		"nom": "OIGNON GROSEILLE JAUNE / ROUGE / BLANC BIO BQT BASTELICA",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CPGIM2",
+		"nom": "GIROLLE IMPORT GROSSE KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CHPTUNPROM",
+		"nom": "CHOU POINTU PROMO KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CHROC1PROMO",
+		"nom": "CHOU ROMANESCO PROMO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CHFLEPETPRO",
+		"nom": "CHOU FLEUR PETIT MARAICHER PCE PROMO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "COJ1PROMO",
+		"nom": "COURGETTE JAUNE KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "ASBLA16PROMO",
+		"nom": "ASPERGE BLANCHE +16 FRANCE KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CPPOBPROM",
+		"nom": "CHAMPIGNON PORTOBELLO PROMO KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CABPRO",
+		"nom": "CAROTTE BLANCHE PROMO KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EXPAD1PRO",
+		"nom": "PATATE DOUCE KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CAFANTPRO",
+		"nom": "CAROTTE FANE BTE PROMO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CPCRMFR",
+		"nom": "CHAMPIGNON CREME FRANCE KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CPPAEPFR",
+		"nom": "CHAMPIGNON PARIS P.ENTIER . FRANCE PLT  ",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CPPARMO1FR",
+		"nom": "CHAMPIGNON PARIS EQ. MOYEN FRANCE KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "AREPX1PRO",
+		"nom": "ARTICHAUT EPINEUX PCE PROMO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EXPDV1",
+		"nom": "PATATE DOUCE VIOLETTE KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CHFLV1PRO",
+		"nom": "CHOU FLEUR VIOLET PCE PROMO ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "BECGAV1PRO",
+		"nom": "BETTERAVE CHIOGGIA KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "ARPVV1PRO",
+		"nom": "ART. POIVRADE VRAC  PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "AUINDI",
+		"nom": "AUBERGINE INDIENNE KG",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CPPLEPR",
+		"nom": "PLEUROTE GRISE KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CHRAPR",
+		"nom": "CHOU RAVE VERT PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "ENRG1PRO",
+		"nom": "ENDIVE ROUGE PROMO KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "9ARPVV",
+		"nom": "ART. POIVRADE VRAC BIO KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CERAVPRO",
+		"nom": "CELERI RAVE PROMO AU KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "9ASPOU22ANG",
+		"nom": "ASP.POURPRE BIO+22\"POUPARD\" KG 49160",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "CHKALPRO",
+		"nom": "CHOU KALE VERT KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "BL1PRO",
+		"nom": "BLETTE FRANCE KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSVEN16B",
+		"nom": "CRESS VENE X16 BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSRDAMWOB",
+		"nom": "CRESS RED AMARANTH WOW (PRECO)",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSTHBAWOB",
+		"nom": "CRESS THAI BASIL WOW (PRECO)",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSREVESOWOB",
+		"nom": "CRESS RED VEIN SORREL WOW (PRECO)",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSCOWOB",
+		"nom": "CRESS CORIANDER WOW (PRECO)",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "HETREBABX",
+		"nom": "TREFLE BQ BASTELICA",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSBSL16BB",
+		"nom": "CRESS LIMON X16 BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSACL16B",
+		"nom": "CRESS ACLA BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "HETHYCJ1",
+		"nom": "HERBE THYM-CITRON POT  (PRECOMMANDE)",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSSAMI8B",
+		"nom": "SAKURA MIX CRESS BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSBETM4B",
+		"nom": "CRESS BETTERAVE MER (SEA BEETS) BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSFENBRO4B",
+		"nom": "CRESS BRONZE FENNEL BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSREVEI16B",
+		"nom": "CRESS RED VEIN SORREL BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSBAITH16B",
+		"nom": "CRESS BASIL THAI BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSRERAD18B",
+		"nom": "CRESS RED RADISH BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSREDAM18B",
+		"nom": "CRESS RED AMARANTHE BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSMIZ18B",
+		"nom": "CRESS MIZUNA BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSCITR4B",
+		"nom": "CRESS CITRA LEAVES BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSPERS16B",
+		"nom": "CRESS PERSINETTE BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSSALTF4B",
+		"nom": "CRESS SALTY FINGERS BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSSCA16B",
+		"nom": "CRESS SCARLETTE / RED AMARANTH BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "9HEEST",
+		"nom": "ESTRAGON BIO BTE",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "CSWHG16B",
+		"nom": "CRESS WHEAT GRASS BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [{ "slug": "produits-francais" }, { "slug": "promotions" }, { "slug": "produits-certifies-labellises" }],
+		"labels": [{ "slug": "produits-francais" }, { "slug": "promotions" }, { "slug": "produits-certifies-labellises" }, { "slug": "disponible-en-precommande" }]
+	},
+	{
+		"code": "9HEBAST1",
+		"nom": "BASILIC  BIO BTE CAT1",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9HECIBT1",
+		"nom": "CIVETTE BIO BTE CAT 1",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9HECORT1",
+		"nom": "CORIANDRE BIO BTE CAT1",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9HEANET1",
+		"nom": "ANETH BIO BTE CAT1",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "CSMAJL4B",
+		"nom": "CRESS MAJII LEAVES BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSHON16B",
+		"nom": "CRESS HONNY BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSFENM4B",
+		"nom": "CRESS FENOUIL MER (SEA FENNEL) BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSOYS4B",
+		"nom": "CRESS OYS.LEAVES \"HUITRES\" BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSBRO10B",
+		"nom": "CRESS BROCCO BQ  NL",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CAPBUL",
+		"nom": "CAPUCINE BULBEUSE",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSATS16NLB",
+		"nom": "CRESS ATSINA / ANISE DROP BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "GEGPXB",
+		"nom": "GERME G. POIREAUX . BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "HEBSRT1",
+		"nom": "BASILIC ROUGE BOTTE",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "GEGSOV",
+		"nom": "GERME DE SOJA  KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "HECBL1",
+		"nom": "CIBOULE . C CAT 1",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "HECBAT1",
+		"nom": "CITRONNELLE BATON KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "GEGCRB",
+		"nom": "GERME G. CHOU ROUGE . BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSSZM16B",
+		"nom": "CRESS SHISO MIX BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSSVG16B",
+		"nom": "CRESS SHISO VERT GDE FEUILLE BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSSHV16B",
+		"nom": "CRESS SHISO VERT BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSSHR16B",
+		"nom": "CRESS SHISO ROUGE BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSRKC16B",
+		"nom": "CRESS ROCK CHIVES / GARLIC BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSBSL16B",
+		"nom": "CRESS LIMON X12 BQ FERMEE",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CSAFF16B",
+		"nom": "CRESS AFFILA / SNOW PEA BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "HEVERBABX",
+		"nom": "VERVEINE BQ BASTELICA",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "HETHYT1",
+		"nom": "THYM BOTTE",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "HETHCT1",
+		"nom": "THYM / CITRON BOTTE",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "herbes-cresses" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUROPESE",
+		"nom": "PÉTALES DE ROSE TUBO 1L 60G LDS",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FLCOLVPRO",
+		"nom": "COLOQUINTE KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUVERMBAB",
+		"nom": "FLEURS VERVEINE BQ BASTELICA",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUTAB",
+		"nom": "FLEUR TAGETE BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUPAQBQ",
+		"nom": "FLEURS DE PAQUERETTE BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUFAIBB",
+		"nom": "FLEURS D'AIL BLANCHE BARQUETTE",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUFENBAB",
+		"nom": "FLEURS FENOUIL BASTELICA BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUANISBB",
+		"nom": "FLEUR ANISE BLOSSOM / TAGETES BQT",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUCCB",
+		"nom": "FLEURS CONCOMBRE BQ SALES PROD.",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUSURB",
+		"nom": "FLEURS SUREAU BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUBEABB",
+		"nom": "FLEUR BEAN BLOSSOM (FLEUR DE HARICOT) BQT",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUPDRB",
+		"nom": "PETALE ROSE COMESTIBLE BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUFEBOUBAB",
+		"nom": "FEUILLE \"BOURACHE\" BQ  BASTELICA",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUDUSB4B",
+		"nom": "FLEUR DUSHI BUTTON / LIPPIA DULCIS BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUCORB",
+		"nom": "FLEURS \"CORIANDRE\"  BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUTGTB",
+		"nom": "FLEUR TAGETE BASTELICA BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUAPBB",
+		"nom": "FLEUR APPLEBLOSSOM / APHRODITE (FLEUR DE POMME) BQT",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FLMAICO",
+		"nom": "EPIS DE MAIS COLORE",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUHIBJ",
+		"nom": "FLEURS \"HIBISCUS-PETALES\"  POT 140G.",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUCAPFEB",
+		"nom": "FEUILLE DE CAPUCINE PETITE BASTELICABQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUCO15U",
+		"nom": "FLEURS DE COURGETTE \"TARTARE\" BARQUETTE",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUSECB",
+		"nom": "FLEURS SECHUAN BUTTON / (BLOSSOM) ABC. BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUVILB",
+		"nom": "FLEURS \"VIOLA\" BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUSOUB",
+		"nom": "FLEURS SOUCIS BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FURSEUR",
+		"nom": "FLEURS  ROSES (LA BOTTE)",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FURSEB",
+		"nom": "FLEURS ROSE COMMESTIBLE BARQUETTE",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUPENB",
+		"nom": "FLEURS PENSEE BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUFAIB",
+		"nom": "FLEURS D'AIL VIOLETTE BARQUETTE",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUCAPB",
+		"nom": "FLEURS CAPUCINE BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FUBOUB",
+		"nom": "FLEURS \"BOURACHE\" BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FLRUST",
+		"nom": "FEUILLAGE DE RUSCUS BTE",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FLFOUT",
+		"nom": "FEUILLAGE DE FOUGERE . BTE",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FLCOLV",
+		"nom": "COLOQUINTE KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "fleurs-feuillages" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SAFCRRC",
+		"nom": "SALADE FEUILLE DE CHENE ROUGE 500GR  4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4TOMCUB",
+		"nom": "TOMATE CUBE 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4PREMVRRC",
+		"nom": "POIREAUX EMINCE VRAC 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SPMES8BOCON",
+		"nom": "SALADE PETITE MESCLUN 8 X 250GR 4E GAM BO CONVERGENCE",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SPMES2BO",
+		"nom": "SALADE MESCLUN 8 X  250G C 4E GAM",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4CCBASAGB",
+		"nom": "CONCOMBRE  BATONNET SNACKING BQ 4E GAM AG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SPMESJP8AGS",
+		"nom": "SALADE  MESCLUN JEUNE POUSSE 10 X 125 GR 4E GAM AG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SPEPP8AG",
+		"nom": "SALADE PETITE EPINARD POUSSE 8 X 250 GR 4E GAM AG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SALAIFE2AG",
+		"nom": "SALADE LAITUE FEUILLE 2 X 1 KG 4E GAM AG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SABATFE2AG",
+		"nom": "SALADE BATAVIA BLONDE FEUILLE 2 X 1 KG  4E GAM AG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4RDREQRCS",
+		"nom": "RADIS  ROND EQUETE (E) SCT 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4CCBASRCB",
+		"nom": "CONCOMBRE  BATONNET SNACKING BQ 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4TOROTL",
+		"nom": "TOMATE RONDELLE 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4CCBATLB",
+		"nom": "CONCOMBRE BATONNET BQ 4E GAM THALIA",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SPEPP6BOS",
+		"nom": "EPINARD POUSSE 6 SCT 4E GAM SELF",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SPMES6BOB",
+		"nom": "SALADE PETITE MESCLUN 6 BQ 4E GAM SELF",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SPMESS2BO",
+		"nom": "SALADE PETITE MESCLUN 6 X  145G C 4E GAM BO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SPMESJP8RCS",
+		"nom": "SALADE  MESCLUN JEUNE POUSSE 8 X 250 GR 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4PVPROBRURCB",
+		"nom": "POIVRON PV ROUGE BRUNOISE BQ 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4COCUBRC",
+		"nom": "COURGETTE  CUBE C 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SPROQJP8RCS",
+		"nom": "ROQUETTE JEUNE POUSSE 8 SCT X 250 GR 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SPMESS1RC",
+		"nom": "JP MESCLUN SACHET 125G C 4E GAM RC",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4RDRO8RCS",
+		"nom": "RADIS  RONDELLE 8 SCT 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4CEBRHEM8RCS",
+		"nom": "CELERI BRANCHE EMINCE 8 SCT 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SPEPP8RCS",
+		"nom": "SALADE PETITE EPINARD POUSSE 8 X 250 GR 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SPEPP8BOS",
+		"nom": "SALADE PETITE EPINARD POUSSE 8 X 250 GR 4E GAM BO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SPMAC8RCS",
+		"nom": "MACHE 4 GAMME 250GR X 8 RDC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SASCO8RCS",
+		"nom": "SALADE COMPOSEE 8 X 500 GR 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SAROECO8RCS",
+		"nom": "SALADE ROMAINE COUPEE 8 X 500G R 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SALAIFE2RCS",
+		"nom": "SALADE LAITUE FEUILLE 2 X 1 KG 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SAICC8RCS",
+		"nom": "ICEBERG CHIFFONNADE 12 X 500 GR 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SACOW8RCB",
+		"nom": "COLESLAW 8 X 1 KG 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SABATFE2RCS",
+		"nom": "SALADE BATAVIA BLONDE FEUILLE 2 X 1 KG  4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4SABATCO8RCS",
+		"nom": "SALADE BATAVIA BLONDE COUPEE 8 X 400 GR  4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4PVPVEEM8RCB",
+		"nom": "POIVRON PV VERT EMINCE 8 BQ 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4PVPVECU8RCB",
+		"nom": "POIVRON PV VERT CUBE 8 BQ 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4PVPROEM8RCB",
+		"nom": "POIVRON PV ROUGE EMINCE 8 BQ 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4PVPROCU8RCB",
+		"nom": "POIVRON PV ROUGE CUBE 8 BQ 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4OIOIREP8RCB",
+		"nom": "OIGNON O. ROUGE EPLUCHEE 8 BQ 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4OIEP8RCB",
+		"nom": "OIGNON  EPLUCHEE 8 BQ 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4OIEM8RCB",
+		"nom": "OIGNON  EMINCE 8 BQ 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4OICU8RCB",
+		"nom": "OIGNON  CUBE 8 BQ 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4NAQU8RCB",
+		"nom": "NAVET  QUARTIER 8 BQ 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4NABA8RCB",
+		"nom": "NAVET  BATONNET 8 BQ 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4HEPERH16RCS",
+		"nom": "HERBE PERSIL HACHE 16 SCT DE 125 G 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4CPEM8RCB",
+		"nom": "CHAMPIGNON  EMINCE 8 BQ 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4CORO8RCB",
+		"nom": "COURGETTE  RONDELLE 8 BQ 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4COBA8RCB",
+		"nom": "COURGETTE  BATONNET 8 BQ 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4CHCVEEM8RCS",
+		"nom": "CHOU C. VERT EMINCE 8 SCT 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "4CHCRGEM8RCS",
+		"nom": "CHOU C. ROUGE EMINCE 8 SCT 4E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "4eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "5CATAMASB",
+		"nom": "TAPENADE CAROTTE SUD'N SOL BQ 5E GAM",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "5eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "5AUTPMASB",
+		"nom": "TAPENADE CAVIAR AUBERGINE SUD'N'SOL 500G  BQ",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "5eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "5ATAMASB",
+		"nom": "TAPENADE ARTICHAUT BQ 500G  SUD'N SOL 5E GAM",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "5eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "5EN4RCS",
+		"nom": "ENDIVE PAR 10KG 4X2.5KG 5E GAM RC",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "5eme-gamme" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "PONPUROMYRS",
+		"nom": "PUREE MYRTILLE DECONGE.PONTHIER KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "surgeles" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "PONPUROCASS",
+		"nom": "PUREE CASSIS DECONGE.PONTHIER KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "surgeles" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "PONPUPMS",
+		"nom": "PUREE POMME VERTE DECONGE.PONTHIER KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "surgeles" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "PONPUPES",
+		"nom": "PUREE PECHE DECONGE.PONTHIER KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "surgeles" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "PONPUORSGUS",
+		"nom": "PUREE ORANGE SANGUINE DECONGE.PONTHIER KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "surgeles" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "PONPUFRBOIS",
+		"nom": "PUREE FRAISE DES BOIS DECONGE.PONTHIER KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "surgeles" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "PONPUFIS",
+		"nom": "PUREE FIGUE DECONGE.PONTHIER KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "surgeles" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "PONPUEXLITS",
+		"nom": "PUREE LITCHI DECONGE.PONTHIER KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "surgeles" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "PONPUEXGRAS",
+		"nom": "PUREE GRENADE DECONGE.PONTHIER KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "surgeles" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "PONPUCLMANS",
+		"nom": "PUREE MANDARINE DECONGE.PONTHIER KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "surgeles" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "PONPUANS",
+		"nom": "PUREE ANANAS DECONGE.PONTHIER KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "surgeles" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EXMAGCOUPN",
+		"nom": "MANGUE COULIS PONTHIER",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "surgeles" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "BERGPUS",
+		"nom": "PUREE BERGAMOTE SURGELEE 2 X 1 KG DECONGELE",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "surgeles" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "ASVET22MAGCS",
+		"nom": "ASPERGE VERTE JUMBO +22 MAGDA SURGELEE 5K DECONGELE",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "surgeles" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CPPLE5S",
+		"nom": "CHAMPIGNON PLEUROTE 5 SURGELE DECONGELE",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "surgeles" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "LEPONPUBOS",
+		"nom": "PUREE POTIRON  SURGELE BO 4 X 2.5 KG DECONGELE",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "surgeles" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CPCMIS",
+		"nom": "CHAMPIGNON PARIS MINIATURE  SURGELE 10 X 1 KG DECONGELE",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "surgeles" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CHFLES",
+		"nom": "CHOU FLEUR SURGELE 4 X 2.5 KG DECONGELE",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "surgeles" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CHFLEBOS",
+		"nom": "CHOU FLEUR SURGELE BO 4 X 2.5 KG DECONGELE",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "surgeles" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EPCUMMOU",
+		"nom": "CUMIN MOULU 400G (MDS8425)",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FSCTFPROMO",
+		"nom": "CHATAIGNE FRAICHE KG PROMO",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EPTABROU",
+		"nom": "TABASCO ROUGE 60ML (MDS004908)",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "OLND4",
+		"nom": "OLIVE NOIRE DEN. BOITE 4/4",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "OLVD4",
+		"nom": "OLIVE VERTE DEN. BOITE 4/4",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "LSLEV1",
+		"nom": "LEGUME SEC LENTILLE VERTE X 1 KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EPSAUSRI",
+		"nom": "SAUCE SRIRACHA PCE",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FSMECBPRO",
+		"nom": "MARRON / CHATAIGNE ENTIER CUIT BQ PROMO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EPEAAOCDP",
+		"nom": "EAU DE FLEUR ORANGER TERGA 600ML S. MARRAKECH 33700",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EPEAARCDP",
+		"nom": "EAU DE ROSE TERGA 300ML S. MARRAKECH 33700",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CRBPURPN",
+		"nom": "PUREE DE CRANBERRY PONTHIER",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "LSPDCLING7",
+		"nom": "PATES DE CECCO \"LINGUINE-N°7\"",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EPFARMFIOJK",
+		"nom": "FARINE MAIS FIORETTO JAUNE 1KG (MDS856)",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "LSRZB1KG",
+		"nom": "RIZ BASMATI TILDAX1KG (MDS4111)",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "LSRZR1K",
+		"nom": "RIZ ROND 1KG (MDS4136)",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "OLDENTAGG",
+		"nom": "OLIVE DEN.TAGG H.OLIVE 1062G (LDS123038)",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EPFARPC",
+		"nom": "FARINE POIS CHICHES 1KG (MDS0849)",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EPMOUANC1K",
+		"nom": "MOUTARDE A L'ANCIENNE 1KG (MDS4912)",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "LSPICS",
+		"nom": "LEGUMES SECS POIS CHICHE X 1 KG",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "LSLERS",
+		"nom": "LEGUMES SEC LENTILLE CORAIL X 1 KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "LSPDCRISO74",
+		"nom": "PATES DE CECCO \"RISO - N°74\"(500G)",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EPSCENUOC720",
+		"nom": "SCE NUOC MAM\"CON CA\"720ML (TF)",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "ROFRRGPUPN",
+		"nom": "PUREE FRUITS ROUGES PONTHIER",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "PEPEBPUPN",
+		"nom": "PUREE PECHE BLANCHE PONTHIER",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "ROFRMCOUPN",
+		"nom": "FRAMBOISES COULIS PONTHIER",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FRCOUPN",
+		"nom": "FRAISE COULIS PONTHIER",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "ROMYRPURPN",
+		"nom": "PUREE MYRTILLES PONTHIER",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "ROMURPURPN",
+		"nom": "PUREE MURES PONTHIER",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "ROGROPURPN",
+		"nom": "PUREE GROSEILLE PONTHIER",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "PMVEPURPN",
+		"nom": "PUREE POMME VERTE PONTHIER",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "ORSGUPURPN",
+		"nom": "PUREE ORANGE SANGUINE PONTHIER",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EXLITPURPN",
+		"nom": "PUREE LITCHI PONTHIER",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EXGRAPURPN",
+		"nom": "PUREE GRENADE PONTHIER",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EXGOYPURPN",
+		"nom": "PUREE GOYAVE PONTHIER",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CIVEPURPN",
+		"nom": "PUREE CITRON VERT PONTHIER FRAIS",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "ANPURPN",
+		"nom": "PUREE ANANAS PONTHIER FRAIS",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "LSRNV500",
+		"nom": "RIZ VENERE NOIR 1KG (MDS8986)",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "LSRSU1",
+		"nom": "RIZ POUR SUSHI 1KG (MDS2012)",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EPCURM450",
+		"nom": "CURRY MOULU 450G.(MDS8429)",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EPCINQB",
+		"nom": "MELANGE CINQ BAIES 400G.(MDS008400)",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EPSSKSUC",
+		"nom": "SAUCE SOJA SUCREE PCE",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "LSRIZARBKG",
+		"nom": "RIZ ARBORIO SAC DE 1KG",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "FSDATBOUQ",
+		"nom": "DATTES BRANCHEE BOUQUET   500 GRAMMES",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EPJUSVEAUARIU",
+		"nom": "JUS DE VEAU ARIAKE POCHE DE 400 ML",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EPBOLLEGARIU",
+		"nom": "BOUILLON DE LEGUME ARIAKE BTE DE 310 GR X5 SCHTS",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "LSQUIRG",
+		"nom": "QUINOA ROUGE 500GR. (MDS004231)",
+		"ucParDefaut": "K",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EPFRI",
+		"nom": "FARINE RIZ \"COQ BRAND\" SACHET 400 GRAMMES",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EPFRIG",
+		"nom": "FARINE RIZ GLUANT \"COQ BRAND\" SACHET 400 GRAMMES",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EPSSOSABC",
+		"nom": "SAUCE SOJA SALE PCE",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "EPBOLVOLARIU",
+		"nom": "BOUILLON DE VOLAILLE ARIAKE BTE DE 430 GR X 5 SCHTS",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "epicerie" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CBRMFSEDEJ1",
+		"nom": "CORB RAYNIER FR.SECS \"DEJEUNER\" X1KG",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CBRMFSE1",
+		"nom": "CORB RAYNIER FR.SECSX1KG",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CBRMFRO3",
+		"nom": "CORB RAYNIER FR.ROUGESX3KG",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CBRMFRO2",
+		"nom": "CORB RAYNIER FR.ROUGESX2KG",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CBRMFRO1",
+		"nom": "CORB RAYNIER FR.ROUGESX1KG",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CBRMFEX5",
+		"nom": "CORB RAYNIER FR.EXOTIQUESX5KG",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CBRMFEX3",
+		"nom": "CORB RAYNIER FR.EXOTIQUESX3KG",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CBRMFEX2",
+		"nom": "CORB RAYNIER FR.EXOTIQUESX2KG",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CBRMFEX1",
+		"nom": "CORB RAYNIER FR.EXOTIQUESX1KG",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CBRMFSA5",
+		"nom": "CORB RAYNIER FR.SAISON BOUCHEX5KG",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CBRMFSA3",
+		"nom": "CORB RAYNIER FR.SAISON BOUCHEX3KG",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CBRMFSA2",
+		"nom": "CORB RAYNIER FR.SAISON BOUCHEX2KG",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CBRMFSA1",
+		"nom": "CORB RAYNIER FR.SAISON BOUCHEX1KG",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CBFSELB1",
+		"nom": "CORB.FRUITS SECS LB 300G.",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "CBFSALB1",
+		"nom": "CORB.FRUITS SAISON LB 600G.",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [],
+		"labels": []
+	},
+	{
+		"code": "9CBFSE10",
+		"nom": "CORB FRUITS SECS 10 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBFSE9",
+		"nom": "CORB FRUITS SECS 9 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBFSE8",
+		"nom": "CORB FRUITS SECS 8 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBFSE7",
+		"nom": "CORB FRUITS SECS 7 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBFSE6",
+		"nom": "CORB FRUITS SECS 6 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBFSE5",
+		"nom": "CORB FRUITS SECS 5 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBFSE4",
+		"nom": "CORB FRUITS SECS 4 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBFSE3",
+		"nom": "CORB FRUITS SECS 3 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBFSE2",
+		"nom": "CORB FRUITS SECS 2 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBFSE1",
+		"nom": "CORB FRUITS SECS 1 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBLGM10",
+		"nom": "CORB LEGUME 10 BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBLGM9",
+		"nom": "CORB LEGUME 9 BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBLGM6",
+		"nom": "CORB LEGUME 6 BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBLGM5",
+		"nom": "CORB LEGUME 5 BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBLGM4",
+		"nom": "CORB LEGUME 4 BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBLGM3",
+		"nom": "CORB LEGUME 3 BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBLGM2",
+		"nom": "CORB LEGUME 2 BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBLGM1",
+		"nom": "CORB LEGUME 1 BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBEXT10",
+		"nom": "CORB EXOTIQUES 10 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBEXT9",
+		"nom": "CORB EXOTIQUES 9 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBEXT8",
+		"nom": "CORB EXOTIQUES 8 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBEXT7",
+		"nom": "CORB EXOTIQUES 7 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBEXT6",
+		"nom": "CORB EXOTIQUES 6 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBEXT5",
+		"nom": "CORB EXOTIQUES 5 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBEXT4",
+		"nom": "CORB EXOTIQUES 4 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBEXT3",
+		"nom": "CORB EXOTIQUES 3 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBEXT2",
+		"nom": "CORB EXOTIQUES 2 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBEXT1",
+		"nom": "CORB EXOTIQUES 1 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBFSA10",
+		"nom": "CORB FRUITS DE SAISON 10 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBFSA9",
+		"nom": "CORB FRUITS DE SAISON 9 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBFSA8",
+		"nom": "CORB FRUITS DE SAISON 8 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBFSA7",
+		"nom": "CORB FRUITS DE SAISON 7 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBFSA6",
+		"nom": "CORB FRUITS DE SAISON 6 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBFSA5",
+		"nom": "CORB FRUITS DE SAISON 5 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	},
+	{
+		"code": "9CBFSA4",
+		"nom": "CORB FRUITS DE SAISON 4 . BIO",
+		"ucParDefaut": "U",
+		"categorie": { "slug": "corbeilles-fruits-legumes" },
+		"selections": [{ "slug": "gamme-bio" }],
+		"labels": [{ "slug": "agriculture-biologique" }]
+	}
+]

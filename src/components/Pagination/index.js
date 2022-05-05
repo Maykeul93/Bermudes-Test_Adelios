@@ -19,8 +19,15 @@ const Pagination = ({postsPerPage, totalPosts, paginate, currentPage}) => {
                 >
                     {number}
                 </span>
+
             </li>
         ))}
+            <button
+                type='text'
+                className='favoritesbutton'
+                onClick={() => console.log("click")}
+                >Favoris
+            </button>
     </ul>
   )
 }

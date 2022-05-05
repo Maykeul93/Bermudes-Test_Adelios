@@ -14,7 +14,7 @@ const Produit = ({produit, handleFavorites, favorites}) => {
   }
 
   useEffect(() => {
-    const isFavorites = favorites.find(favorite => favorite === produit.code)
+    const isFavorites = favorites.find(favorite => favorite.code === produit.code)
     if(isFavorites){
       setLiked(!liked)
     }
