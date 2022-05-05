@@ -44,6 +44,8 @@ const Navbar = ({setCategory}) => {
   )
 }
 
-Navbar.propTypes = {}
+Navbar.propTypes = {
+  setCategory: PropTypes.func.isRequired
+}
 
 export default Navbar

@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'
 
 import './styles.scss';
 
-const Pagination = ({postsPerPage, totalPosts}) => {
+const Pagination = ({postsPerPage, totalPosts, paginate, currentPage}) => {
+    //set number of pages
     const pageNumbers = [];
     for(let i = 1; i <= Math.ceil(totalPosts/postsPerPage); i++) {
         pageNumbers.push(i)
@@ -12,15 +13,30 @@ const Pagination = ({postsPerPage, totalPosts}) => {
     <ul className='pagination'>
         {pageNumbers.map(number =>(
             <li key = { number } className="pagination__item">
-                <a href="!#" className='pagination__link'>
+                <span
+                onClick={() => paginate(number)}
+                className={`pagination__link ${currentPage === number ? "pagination__active" : ""}`}
+                >
                     {number}
-                </a>
+                </span>
             </li>
         ))}
     </ul>
   )
 }
 
-Pagination.propTypes = {}
+Pagination.propTypes = {
+    postsPerPage: PropTypes.number,
+    totalPosts: PropTypes.number,
+    paginate: PropTypes.func,
+    currentPage: PropTypes.number
+};
+
+Pagination.defaultProps = {
+    postsPerPage: null,
+    totalPosts: null,
+    paginate: () => {},
+    currentPage: null
+}
 
 export default Pagination

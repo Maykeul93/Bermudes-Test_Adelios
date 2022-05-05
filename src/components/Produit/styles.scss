@@ -1,13 +1,14 @@
 .product{
-    width: 150px;
-    display: flex;
+    width: 120px;
     position: relative;
+    margin: 1rem;
     &__name{
         font-size: 10px;
         text-align: center;
     }
     &__img{
         display: block;
+        margin: auto;
     }
     &__heartbutton{
         position: absolute;

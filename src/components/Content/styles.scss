@@ -1,5 +1,5 @@
 .content {
     display: flex;
-    height: calc(100% - 100px);
+    max-height: calc(100% - 100px);
     width: 100%;
 }

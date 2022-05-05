@@ -12,7 +12,6 @@ import Result from '../Result'
 
 const Content = ({data}) => {
   const [category, setCategory] = useState()
-
   return (
     <div className='content'>
         <Navbar setCategory={setCategory}/>
@@ -25,6 +24,8 @@ const Content = ({data}) => {
   )
 }
 
-Content.propTypes = {}
+Content.propTypes = {
+  data: PropTypes.array.isRequired
+}
 
 export default Content

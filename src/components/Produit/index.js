@@ -18,7 +18,7 @@ const Produit = ({produit, handleFavorites, favorites}) => {
     if(isFavorites){
       setLiked(!liked)
     }
-  },[])
+  },[ favorites, liked, produit ])
   
   return (
     <div className='product'>
@@ -34,6 +34,10 @@ const Produit = ({produit, handleFavorites, favorites}) => {
   )
 }
 
-Produit.propTypes = {}
+Produit.propTypes = {
+  produit: PropTypes.object.isRequired,
+  handleFavorites: PropTypes.func.isRequired,
+  favorites: PropTypes.array.isRequired
+}
 
 export default Produit

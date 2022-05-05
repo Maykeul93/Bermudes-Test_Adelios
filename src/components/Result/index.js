@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import PropTypes from 'prop-types'
 import { useParams } from 'react-router-dom'
 
@@ -14,7 +14,6 @@ const Result = ({ data }) => {
   const aliments = data.filter(aliment => aliment.categorie.slug === page.category)
   // Array favorites
   const [favorites, setFavorites] = useState([])
-  console.log("favorites", favorites)
   //Function add a favorites to the array
   const handleFavorites = (produit) => {
     //function to search if the product is in the array favorites
@@ -23,17 +22,25 @@ const Result = ({ data }) => {
     !isFavorites ? setFavorites([...favorites, produit.code]) : setFavorites(favorites.filter(favorite => favorite !== produit.code))
   }
 
+  // set current page and post per page
   const [currentPage, setCurrentPage] = useState(1)
-  const [postPerPage, setPostPerPage] = useState(10)
+  const [postPerPage] = useState(10)
 
   // get current Post
   const indexOfLastPost = currentPage * postPerPage;
   const indexOfFirstPost = indexOfLastPost - postPerPage;
   const currentPosts = aliments.slice(indexOfFirstPost, indexOfLastPost)
-  
+  // Change page
+  const paginate = (pageNumber) => setCurrentPage(pageNumber)
+
+  // Reset current page if url change
+  useEffect(() =>{
+    setCurrentPage(1)
+  },[page])
+
   return (
     <div className='result'>
-      <Pagination postsPerPage={postPerPage} totalPosts={aliments.length}/>
+      <Pagination postsPerPage={postPerPage} totalPosts={aliments.length} paginate={paginate} currentPage={currentPage}/>
       {currentPosts.map(aliment => (
         <Produit produit={aliment} key={aliment.nom} handleFavorites={handleFavorites} favorites={favorites}/>
       ))}
@@ -42,6 +49,8 @@ const Result = ({ data }) => {
   )
 }
 
-Result.propTypes = {}
+Result.propTypes = {
+  data: PropTypes.array.isRequired
+}
 
 export default Result
