@@ -18,7 +18,7 @@ const Produit = ({produit, handleFavorites, favorites}) => {
     if(isFavorites){
       setLiked(!liked)
     }
-  },[ favorites, liked, produit ])
+  },[])
   
   return (
     <div className='product'>
