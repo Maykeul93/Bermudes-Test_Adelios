@@ -5,10 +5,12 @@ import './styles.scss';
 
 const Pagination = ({postsPerPage, totalPosts, paginate, currentPage}) => {
     //set number of pages
+    console.log("pagination",postsPerPage,totalPosts,paginate,currentPage)
     const pageNumbers = [];
     for(let i = 1; i <= Math.ceil(totalPosts/postsPerPage); i++) {
         pageNumbers.push(i)
     }
+    console.log(pageNumbers)
   return (
     <ul className='pagination'>
         {pageNumbers.map(number =>(
