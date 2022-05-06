@@ -2,25 +2,27 @@ import React, { useEffect, useState } from 'react'
 import PropTypes from 'prop-types'
 
 import './styles.scss'
-import heart from "../../assets/svg/heart.svg"
-import productImage from '../../assets/produits/4AIEPL@100.webp'
+import heart from "src/assets/svg/heart.svg"
+import productImage from 'src/assets/produits/4AIEPL@100.webp'
 
 const Produit = ({produit, addFavorites, removeFavorites, favorites}) => {
 
-  console.log(favorites)
+  // if liked or not
   const [liked, setLiked] = useState(false)
 
+  // function when user like or dislike 
   const handleFavorites = (produit) => {
-    //function to search if the product is in the array favorites
+    //function to search if the product is in the redux state
     const isFavorites = favorites.find(favorite => favorite.code === produit.code)
     // if favorite, remove it, if not , add it
     !isFavorites ? addFavorites(produit) : removeFavorites(produit)
   }
-
+    // function like a product
   const likedProduct = (produit) => {
     setLiked(!liked)
     handleFavorites(produit)
   }
+
   useEffect(() => {
     const isFavorites = favorites.find(favorite => favorite.code === produit.code)
     if(isFavorites){

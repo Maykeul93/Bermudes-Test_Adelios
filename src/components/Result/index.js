@@ -9,15 +9,11 @@ import './styles.scss'
 
 
 const Result = ({ data, posts, setPosts }) => {
-  // posts data from redux store
-  // Filter per category
-  const page = useParams()
-  const dataPerCat = data.filter(aliment => aliment.categorie.slug === page.category)
-  
-  // Array favorites
-  const [favorites, setFavorites] = useState([])
-  //Function add a favorites to the array
 
+  const [dataPerCat, setDataPerCat] = useState([])
+  const page = useParams()
+  console.log("params", page)
+  
   // set current page and post per page
   const [currentPage, setCurrentPage] = useState(1)
   const [postPerPage] = useState(10)
@@ -34,8 +30,15 @@ const Result = ({ data, posts, setPosts }) => {
   // Reset current page if url change
   useEffect(() => {
     setCurrentPage(1);
+    // Filter per category
+    if(page.category === "favorites"){
+      setDataPerCat(posts)
+    }else{
+      setDataPerCat(data.filter(aliment => aliment.categorie.slug === page.category))
+    }
   },[page]);
 
+  // rerender posts when current posts change
   useEffect(() => {
       setPosts(currentPosts);
   },[JSON.stringify(currentPosts)]);

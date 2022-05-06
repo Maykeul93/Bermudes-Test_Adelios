@@ -4,21 +4,26 @@ import PropTypes from 'prop-types'
 import {
   Routes,
   Route,
+  Navigate
 } from "react-router-dom";
 
 import './styles.scss'
 import Navbar from '../Navbar'
 import Result from 'src/containers/Result'
+import NoMatch from 'src/components/NoMatch';
+import Home from 'src/components/Home';
 
-const Content = () => {
+const Content = (data) => {
   const [category, setCategory] = useState()
   return (
     <div className='content'>
         <Navbar setCategory={setCategory}/>
         <Routes>
-          <Route path='/:category'
-            element={<Result category={category} />}
+          <Route exact path='/' element={<Home />} />
+          <Route exact path='/:category'
+          element={<Result category={category} />}
           />
+          <Route path="*" element={<NoMatch />} />
         </Routes>
     </div>
   )

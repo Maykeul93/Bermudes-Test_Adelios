@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
+import { useNavigate } from "react-router-dom";
 import './styles.scss';
 import { useSelector, useDispatch } from 'react-redux';
 import { setPosts } from 'src/actions/data';
@@ -8,10 +8,10 @@ import { setPosts } from 'src/actions/data';
 const Pagination = ({postsPerPage, totalPosts, paginate, currentPage}) => {
 
     const dispatch = useDispatch()
+    const navigate = useNavigate();
+    // favorites from redux state
     const favoritesPosts = useSelector((state) => state.data.favorites)
     
-    
-    console.log("favoritesposts",favoritesPosts)
     //set number of pages
     const pageNumbers = [];
     for(let i = 1; i <= Math.ceil(totalPosts/postsPerPage); i++) {
@@ -33,7 +33,10 @@ const Pagination = ({postsPerPage, totalPosts, paginate, currentPage}) => {
             <button
                 type='text'
                 className='favoritesbutton'
-                onClick={() => dispatch(setPosts(favoritesPosts))}
+                onClick={() => {
+                    dispatch(setPosts(favoritesPosts))
+                    navigate('/favorites')
+                }}
                 >Favoris
             </button>
     </ul>
