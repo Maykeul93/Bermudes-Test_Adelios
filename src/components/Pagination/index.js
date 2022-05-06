@@ -2,8 +2,16 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import './styles.scss';
+import { useSelector, useDispatch } from 'react-redux';
+import { setPosts } from 'src/actions/data';
 
 const Pagination = ({postsPerPage, totalPosts, paginate, currentPage}) => {
+
+    const dispatch = useDispatch()
+    const favoritesPosts = useSelector((state) => state.data.favorites)
+    
+    
+    console.log("favoritesposts",favoritesPosts)
     //set number of pages
     const pageNumbers = [];
     for(let i = 1; i <= Math.ceil(totalPosts/postsPerPage); i++) {
@@ -25,7 +33,7 @@ const Pagination = ({postsPerPage, totalPosts, paginate, currentPage}) => {
             <button
                 type='text'
                 className='favoritesbutton'
-                onClick={() => console.log("click")}
+                onClick={() => dispatch(setPosts(favoritesPosts))}
                 >Favoris
             </button>
     </ul>
