@@ -1,19 +1,16 @@
 import React, { useEffect, useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
 import PropTypes from 'prop-types'
 import { useParams } from 'react-router-dom'
-import { setPosts } from 'src/actions/data'
 
 import './styles.scss'
 
 import Pagination from '../Pagination'
 import Produit from '../Produit';
 
-const Result = ({ data }) => {
-
-  const dispatch = useDispatch()
+const Result = ({ data, posts, setPosts }) => {
+  console.log("data",data)
+  console.log("posts",posts)
   // posts data from redux store
-  const posts = useSelector((state) => state.data.posts)
   // Filter per category
   const page = useParams()
   const dataPerCat = data.filter(aliment => aliment.categorie.slug === page.category)
@@ -48,10 +45,9 @@ const Result = ({ data }) => {
   },[page]);
 
   useEffect(() => {
-    dispatch(setPosts(currentPosts))
-  },[])
+      setPosts(currentPosts);
+  },[JSON.stringify(currentPosts)]);
 
-  console.log("postsss",posts)
   return (
     <div className='result'>
       <Pagination postsPerPage={postPerPage} totalPosts={dataPerCat.length} paginate={paginate} currentPage={currentPage}/>

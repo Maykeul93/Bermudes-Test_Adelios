@@ -8,16 +8,16 @@ import {
 
 import './styles.scss'
 import Navbar from '../Navbar'
-import Result from '../Result'
+import Result from 'src/containers/Result'
 
-const Content = ({data}) => {
+const Content = () => {
   const [category, setCategory] = useState()
   return (
     <div className='content'>
         <Navbar setCategory={setCategory}/>
         <Routes>
           <Route path='/:category'
-            element={<Result category={category} data={data}/>}
+            element={<Result category={category} />}
           />
         </Routes>
     </div>

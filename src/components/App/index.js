@@ -5,16 +5,16 @@ import Content from '../Content'
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux'
 //import actions 
-import { setData } from '../../actions/data';
-//import redux store
-
+import { setData } from 'src/actions/data';
+//import api
+import api from 'src/api'
 function App() {
   
   const dispatch = useDispatch()
   // function to fetch data
   const data = useSelector((state)=> state.data.data)
   const getData = () => { 
-    fetch('sampleProduits.json'
+    fetch(api
     ,{
       headers : { 
         'Content-Type': 'application/json',
