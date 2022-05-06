@@ -12,11 +12,10 @@ const Result = ({ data, posts, setPosts }) => {
 
   const [dataPerCat, setDataPerCat] = useState([])
   const page = useParams()
-  console.log("params", page)
   
   // set current page and post per page
   const [currentPage, setCurrentPage] = useState(1)
-  const [postPerPage] = useState(10)
+  const [postPerPage] = useState(20)
 
   // get current Post
   const indexOfLastPost = currentPage * postPerPage;
@@ -32,6 +31,8 @@ const Result = ({ data, posts, setPosts }) => {
     setCurrentPage(1);
     // Filter per category
     if(page.category === "favorites"){
+      setDataPerCat(posts)
+    }else if (page.category === "search"){
       setDataPerCat(posts)
     }else{
       setDataPerCat(data.filter(aliment => aliment.categorie.slug === page.category))

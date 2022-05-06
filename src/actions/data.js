@@ -25,3 +25,10 @@ export const removeFavorites = (value) => ({
   type: 'REMOVE_FAVORITES',
   value
 })
+
+export const ON_INPUT_CHANGE = 'ON_INPUT_CHANGE';
+
+export const onInputChange = (value) => ({
+  type: 'ON_INPUT_CHANGE',
+  value
+})

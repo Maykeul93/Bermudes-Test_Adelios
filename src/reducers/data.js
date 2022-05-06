@@ -1,5 +1,6 @@
 import {
   ADD_FAVORITES,
+  ON_INPUT_CHANGE,
   REMOVE_FAVORITES,
   SET_DATA, 
   SET_POSTS
@@ -8,7 +9,8 @@ import {
 export const initialState = {
     data: [],
     posts: [],
-    favorites: []
+    favorites: [],
+    inputValue: ""
 };
 
 const reducer = (state = initialState, action = {}) => {
@@ -32,6 +34,11 @@ const reducer = (state = initialState, action = {}) => {
         return {
           ...state,
           favorites: state.favorites.filter(favorite => favorite !==action.value)
+        }
+        case ON_INPUT_CHANGE:
+        return {
+          ...state,
+          inputValue: action.value
         }
       default:
         return state;

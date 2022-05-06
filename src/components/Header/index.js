@@ -6,7 +6,7 @@ import './styles.scss';
 import logo from '../../assets/misc/logo-bermudes.png';
 import {BsFillBasketFill} from 'react-icons/bs';
 import {AiTwotoneNotification} from 'react-icons/ai';
-import Form from '../Form';
+import Form from 'src/containers/Form';
 
 const Header = props => {
   return (
