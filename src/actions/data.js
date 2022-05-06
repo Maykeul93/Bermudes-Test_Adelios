@@ -11,3 +11,17 @@ export const setPosts = (value) => ({
   type: SET_POSTS,
   value
 });
+
+export const ADD_FAVORITES = 'ADD_FAVORITES';
+
+export const addFavorites = (value) => ({
+  type: 'ADD_FAVORITES',
+  value
+})
+
+export const REMOVE_FAVORITES = 'REMOVE_FAVORITES';
+
+export const removeFavorites = (value) => ({
+  type: 'REMOVE_FAVORITES',
+  value
+})

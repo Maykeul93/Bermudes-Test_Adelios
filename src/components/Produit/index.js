@@ -5,14 +5,22 @@ import './styles.scss'
 import heart from "../../assets/svg/heart.svg"
 import productImage from '../../assets/produits/4AIEPL@100.webp'
 
-const Produit = ({produit, handleFavorites, favorites}) => {
+const Produit = ({produit, addFavorites, removeFavorites, favorites}) => {
 
+  console.log(favorites)
   const [liked, setLiked] = useState(false)
+
+  const handleFavorites = (produit) => {
+    //function to search if the product is in the array favorites
+    const isFavorites = favorites.find(favorite => favorite.code === produit.code)
+    // if favorite, remove it, if not , add it
+    !isFavorites ? addFavorites(produit) : removeFavorites(produit)
+  }
+
   const likedProduct = (produit) => {
     setLiked(!liked)
     handleFavorites(produit)
   }
-
   useEffect(() => {
     const isFavorites = favorites.find(favorite => favorite.code === produit.code)
     if(isFavorites){
@@ -36,7 +44,7 @@ const Produit = ({produit, handleFavorites, favorites}) => {
 
 Produit.propTypes = {
   produit: PropTypes.object.isRequired,
-  handleFavorites: PropTypes.func.isRequired,
+  addFavorites: PropTypes.func.isRequired,
   favorites: PropTypes.array.isRequired
 }
 

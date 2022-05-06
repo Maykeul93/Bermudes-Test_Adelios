@@ -1,10 +1,14 @@
 import {
-  SET_DATA, SET_POSTS
+  ADD_FAVORITES,
+  REMOVE_FAVORITES,
+  SET_DATA, 
+  SET_POSTS
   } from 'src/actions/data';
 
 export const initialState = {
-    data:[],
-    posts:[]
+    data: [],
+    posts: [],
+    favorites: []
 };
 
 const reducer = (state = initialState, action = {}) => {
@@ -18,6 +22,16 @@ const reducer = (state = initialState, action = {}) => {
         return {
           ...state,
           posts: action.value
+        };
+      case ADD_FAVORITES:
+        return {
+          ...state,
+          favorites: [...state.favorites, action.value]
+        };   
+        case REMOVE_FAVORITES:
+        return {
+          ...state,
+          favorites: state.favorites.filter(favorite => favorite !==action.value)
         }
       default:
         return state;
