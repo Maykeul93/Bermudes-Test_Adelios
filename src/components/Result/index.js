@@ -75,7 +75,12 @@ const Result = ({ data, posts, setPosts }) => {
 }
 
 Result.propTypes = {
-  data: PropTypes.array.isRequired
+  data: PropTypes.array.isRequired,
+  posts: PropTypes.array,
+  setPosts:PropTypes.func.isRequired
 }
 
+Result.defaultProps = {
+  posts: []
+}
 export default Result

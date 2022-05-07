@@ -4,10 +4,10 @@ import PropTypes from 'prop-types'
 import {
   Routes,
   Route,
-  Navigate
 } from "react-router-dom";
 
 import './styles.scss'
+
 import Navbar from '../Navbar'
 import Result from 'src/containers/Result'
 import NoMatch from 'src/components/NoMatch';

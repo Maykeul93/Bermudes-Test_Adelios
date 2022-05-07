@@ -1,15 +1,17 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import './styles.scss';
 
+//Import icons
 import fullLogo from 'src/assets/misc/logo-bermudes.png';
 import smallLogo from 'src/assets/misc/icone-notification.png'
 import {BsFillBasketFill} from 'react-icons/bs';
 import {AiTwotoneNotification} from 'react-icons/ai';
+//Import component
 import Form from 'src/containers/Form';
 
 const Header = props => {
+  //media querie 
   const logo = window.innerWidth < 600 ? smallLogo : fullLogo
   return (
     <div className='header'>

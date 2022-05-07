@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import PropTypes from 'prop-types'
 
 import './styles.scss'
+//Import icons
 import heart from "src/assets/svg/heart.svg"
 import productImage from 'src/assets/produits/4AIEPL@100.webp'
 
@@ -22,7 +23,7 @@ const Produit = ({produit, addFavorites, removeFavorites, favorites}) => {
     setLiked(!liked)
     handleFavorites(produit)
   }
-
+    //Set like button if liked
   useEffect(() => {
     const isFavorites = favorites.find(favorite => favorite.code === produit.code)
     if(isFavorites){
@@ -47,6 +48,7 @@ const Produit = ({produit, addFavorites, removeFavorites, favorites}) => {
 Produit.propTypes = {
   produit: PropTypes.object.isRequired,
   addFavorites: PropTypes.func.isRequired,
+  removeFavorites: PropTypes.func.isRequired,
   favorites: PropTypes.array.isRequired
 }
 

@@ -1,14 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { NavLink, useNavigate } from "react-router-dom";
-import './styles.scss';
+import { NavLink } from "react-router-dom";
 import { useSelector, useDispatch } from 'react-redux';
+
+import './styles.scss';
+//Import action
 import { setPosts } from 'src/actions/data';
 
 const Pagination = ({postsPerPage, totalPosts, paginate, currentPage, indexOfFirstPost, indexOfLastPost}) => {
 
     const dispatch = useDispatch()
-    const navigate = useNavigate();
     // favorites from redux state
     const favoritesPosts = useSelector((state) => state.data.favorites)
     
@@ -51,14 +52,18 @@ Pagination.propTypes = {
     postsPerPage: PropTypes.number,
     totalPosts: PropTypes.number,
     paginate: PropTypes.func,
-    currentPage: PropTypes.number
+    currentPage: PropTypes.number,
+    indexOfFirstPost:PropTypes.number,
+    indexOfLastPost:PropTypes.number
 };
 
 Pagination.defaultProps = {
     postsPerPage: null,
     totalPosts: null,
     paginate: () => {},
-    currentPage: null
+    currentPage: null,
+    indexOfFirstPost: 0,
+    indexOfLastPost: 0
 }
 
 export default Pagination

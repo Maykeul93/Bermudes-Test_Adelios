@@ -1,14 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import {
-  Link, NavLink
+  NavLink
 } from "react-router-dom";
 
 import './styles.scss';
-
-import logoFruits from '../../assets/categories/fruits__2019-11-15.svg';
-import logoLegumes from '../../assets/categories/legumes__2019-11-15.svg';
-import logoSurgeles from '../../assets/categories/surgeles__2019-11-15.svg';
+//import logo
+import logoFruits from 'src/assets/categories/fruits__2019-11-15.svg';
+import logoLegumes from 'src/assets/categories/legumes__2019-11-15.svg';
+import logoSurgeles from 'src/assets/categories/surgeles__2019-11-15.svg';
 
 const Navbar = ({setCategory}) => {
   return (
