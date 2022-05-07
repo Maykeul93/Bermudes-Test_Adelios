@@ -65,6 +65,10 @@ const Result = ({ data, posts, setPosts }) => {
       {posts.map(aliment => (
         <Produit produit={aliment} key={aliment.nom} />
       ))}
+      {
+        posts.length === 0 &&
+        <p>Aucun article trouvé</p>
+      }
     </div>
 
   )

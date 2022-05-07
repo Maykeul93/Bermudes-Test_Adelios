@@ -1,5 +1,7 @@
 .navbar{
+    padding-top: 1rem;
     width: 25%;
+    text-align: center;
     &__list{
         a.active {
             color: purple;

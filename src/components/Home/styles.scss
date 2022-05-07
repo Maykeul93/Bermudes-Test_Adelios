@@ -1,0 +1,32 @@
+.home{
+    padding: 1rem;
+    &__title{
+        text-align: center;
+        font-size: 36px;
+        color: #6a4796;
+    }
+    &__description{
+        margin: 1rem;
+    }
+    &__item{
+        margin-bottom: 0.5rem;
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .home{
+        padding: 0.5rem;
+        &__title{
+            font-size: 24px;
+            color: #6a4796;
+        }
+        &__description{
+            margin: 0.5rem;
+        }
+        &__item{
+            margin-bottom: 0.5rem;
+            font-size: 16px;
+        }
+    }
+  } 
