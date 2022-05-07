@@ -47,7 +47,7 @@ const Result = ({ data, posts, setPosts }) => {
   },[JSON.stringify(currentPosts)]);
 
   useEffect(() => {
-    if(window.innerWidth < 400 ){
+    if(window.innerWidth < 600 ){
       setPostPerPage(6)
     }
   },[window.innerWidth])

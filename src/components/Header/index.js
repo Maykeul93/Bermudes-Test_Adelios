@@ -10,7 +10,7 @@ import {AiTwotoneNotification} from 'react-icons/ai';
 import Form from 'src/containers/Form';
 
 const Header = props => {
-  const logo = window.innerWidth < 400 ? smallLogo : fullLogo
+  const logo = window.innerWidth < 600 ? smallLogo : fullLogo
   return (
     <div className='header'>
         <Link to="/" className='header__logo' >
