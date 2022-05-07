@@ -22,5 +22,33 @@
         border-radius: 10px;
         box-shadow: 0px 0px 5px rgba(66,66,66,.75);
         text-shadow: 0px 0px 2px rgba(66,66,66,.75);
+        margin-left: 0.5rem;
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+    }    
+    .submitbutton:hover{
+        transform: scale(1.1);
     }
 }
+
+//responsive 
+
+@media only screen and (max-width: 640px) {
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .inputtext{
+            padding: 3px;
+            font-size: 12px;
+        }
+        .submitbutton{
+            margin-top: 0.3rem;
+            padding: 3px;
+            font-size: 12px;
+        }    
+        .submitbutton:hover{
+            transform: scale(1.1);
+        }
+    }
+  } 

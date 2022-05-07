@@ -15,11 +15,13 @@ const Result = ({ data, posts, setPosts }) => {
   
   // set current page and post per page
   const [currentPage, setCurrentPage] = useState(1)
-  const [postPerPage] = useState(20)
+  const [postPerPage, setPostPerPage] = useState(20)
 
   // get current Post
-  const indexOfLastPost = currentPage * postPerPage;
-  const indexOfFirstPost = indexOfLastPost - postPerPage;
+  //limit the max number of last index post
+  Math.minmax = (value, min, max) => Math.min(Math.max(value, min), max);
+  const indexOfLastPost = Math.minmax(currentPage * postPerPage, 1, dataPerCat.length);
+  const indexOfFirstPost = Math.minmax(indexOfLastPost - postPerPage, 0, dataPerCat.length);
   const currentPosts = dataPerCat.slice(indexOfFirstPost, indexOfLastPost)
   
   // Change page
@@ -44,9 +46,21 @@ const Result = ({ data, posts, setPosts }) => {
       setPosts(currentPosts);
   },[JSON.stringify(currentPosts)]);
 
+  useEffect(() => {
+    if(window.innerWidth < 400 ){
+      setPostPerPage(6)
+    }
+  },[window.innerWidth])
   return (
     <div className='result'>
-      <Pagination postsPerPage={postPerPage} totalPosts={dataPerCat.length} paginate={paginate} currentPage={currentPage}/>
+      <Pagination 
+      postsPerPage={postPerPage} 
+      totalPosts={dataPerCat.length} 
+      paginate={paginate} 
+      currentPage={currentPage}
+      indexOfFirstPost={indexOfFirstPost}
+      indexOfLastPost={indexOfLastPost}
+      />
 
       {posts.map(aliment => (
         <Produit produit={aliment} key={aliment.nom} />

@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import {
-  Link
+  Link, NavLink
 } from "react-router-dom";
 
 import './styles.scss';
@@ -15,30 +15,32 @@ const Navbar = ({setCategory}) => {
     <div className='navbar'>
       <h2 className='navbar__title'>Les catégories</h2>
       <ul className='navbar__list'>
-        <Link to="/fruits">
+        <NavLink 
+        className='navbar__link' 
+        to="/fruits">
           <li className='navbar__categorie'
           onClick={() => setCategory("fruits")}
           >
             <img className='navbar__logo' src={logoFruits} alt="logo-fruits" />
             Fruits
           </li>
-        </Link>
-        <Link to="/legumes">
+        </NavLink>
+        <NavLink className='navbar__link' to="/legumes">
           <li className='navbar__categorie'
           onClick={() => setCategory("legumes")}
           >
             <img className='navbar__logo' src={logoLegumes} alt="logo-legumes" />
             Légumes
           </li>
-        </Link>
-        <Link to="/surgeles">
+        </NavLink>
+        <NavLink className='navbar__link' to="/surgeles">
           <li className='navbar__categorie'
           onClick={() => setCategory("surgeles")}
           >
             <img className='navbar__logo' src={logoSurgeles} alt="logo-surgeles" />
             Surgelés
           </li>
-        </Link>
+        </NavLink>
       </ul>
     </div>
   )

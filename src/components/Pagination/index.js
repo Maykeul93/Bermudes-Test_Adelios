@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import './styles.scss';
 import { useSelector, useDispatch } from 'react-redux';
 import { setPosts } from 'src/actions/data';
 
-const Pagination = ({postsPerPage, totalPosts, paginate, currentPage}) => {
+const Pagination = ({postsPerPage, totalPosts, paginate, currentPage, indexOfFirstPost, indexOfLastPost}) => {
 
     const dispatch = useDispatch()
     const navigate = useNavigate();
@@ -18,28 +18,32 @@ const Pagination = ({postsPerPage, totalPosts, paginate, currentPage}) => {
         pageNumbers.push(i)
     }
   return (
-    <ul className='pagination'>
-        {pageNumbers.map(number =>(
-            <li key = { number } className="pagination__item">
-                <span
-                onClick={() => paginate(number)}
-                className={`pagination__link ${currentPage === number ? "pagination__active" : ""}`}
-                >
-                    {number}
-                </span>
+      <>
+        <p className='pagination-index'>{indexOfFirstPost} - {indexOfLastPost} sur {totalPosts} résultats</p>
+        <ul className='pagination'>
+            {pageNumbers.map(number =>(
+                <li key = { number } className="pagination__item">
+                    <span
+                    onClick={() => paginate(number)}
+                    className={`pagination__link ${currentPage === number ? "pagination__active" : ""}`}
+                    >
+                        {number}
+                    </span>
 
-            </li>
-        ))}
-            <button
-                type='text'
-                className='favoritesbutton'
-                onClick={() => {
-                    dispatch(setPosts(favoritesPosts))
-                    navigate('/favorites')
-                }}
-                >Favoris
-            </button>
-    </ul>
+                </li>
+            ))}
+            <NavLink to="/favorites">
+                <button
+                    type='text'
+                    className='favoritesbutton'
+                    onClick={() => {
+                        dispatch(setPosts(favoritesPosts))
+                    }}
+                    >Favoris
+                </button>
+            </NavLink>
+        </ul>
+    </>
   )
 }
 

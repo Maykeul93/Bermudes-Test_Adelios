@@ -3,3 +3,9 @@
     max-height: calc(100% - 100px);
     width: 100%;
 }
+
+@media only screen and (max-width: 640px) {
+    .content {
+        display: block;
+    }
+  } 

@@ -1,8 +1,15 @@
 .pagination{
+    margin-top: 0.5rem;
     display: flex;
     width: 100%;
+    justify-content: center;
+    align-items: center;
     &__item{
         padding: 0.5rem;
+        transition: all .2s ease-in-out;
+    }    
+    &__item:hover{
+        transform: scale(1.1);
     }
     &__link{
         padding: 0.3rem;
@@ -16,6 +23,27 @@
         background-color: rgba(0, 0, 0, 0.16);
     }
     .favoritesbutton{
+        margin-left: 0.5rem;
         height: 30px;
+        transition: all .2s ease-in-out;
+    }    
+    .favoritesbutton:hover{
+        height: 30px;
+        transform: scale(1.1);
+    }
+    a.active button{
+        color: #FF0F00;
+        font-weight: bold;
+        border-color: #FF0F00;
     }
 }
+
+@media only screen and (max-width: 640px) {
+    .pagination{
+        margin-top: 0.3rem;
+        &__item{
+            padding: 0.3rem;
+            transition: all .2s ease-in-out;
+        }    
+    }
+  } 

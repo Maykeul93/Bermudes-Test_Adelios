@@ -28,6 +28,7 @@ const Form = ({data, inputValue, setPosts, onInputChange}) => {
         <input 
         className='inputtext' 
         type='text'
+        placeholder='Rechercher un produit'
         onChange={(e) => onInputChange(e.target.value)} />
         <input className='submitbutton' type="submit" />
     </form>

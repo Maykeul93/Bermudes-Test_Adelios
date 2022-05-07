@@ -1,19 +1,31 @@
 .navbar{
     width: 25%;
-    padding: 1rem;
+    &__list{
+        a.active {
+            color: purple;
+            font-weight: bold;
+        }
+    }
     &__title{
         margin-bottom: 1rem;
         font-size: 20px;
         font-weight: bold;
+    }
+    &__link{
+        color: inherit;
+        text-decoration: inherit;
     }
     &__categorie{
         margin: 1rem 0;
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: all .2s ease-in-out;
+        text-decoration: 'none'
     }    
     &__categorie:hover{
         background-color: #F2EFF6;
+        transform: scale(1.1);
     }
     &__logo{
         width: 30px;
@@ -21,3 +33,26 @@
     }
 
 }
+
+@media only screen and (max-width: 640px) {
+    .navbar{
+        width: 100%;
+        padding: 0.3rem;
+        text-align: center;
+        &__title{
+            margin-bottom: 0.3rem;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        &__categorie{
+            margin: 0.3rem 0;
+            font-size: 15px;
+        }    
+        &__list{
+            height: 40px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+  } 
